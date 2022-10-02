@@ -1,0 +1,60 @@
+{
+	"Create react file component": {
+		"prefix": "crfc",
+		"body": [
+			"export const ${TM_FILENAME_BASE/^.+\\\\(.*)$/$1/} = () => {",
+			"	return (",
+			"		<div>${TM_FILENAME_BASE/^.+\\\\(.*)$/$1/}</div>",
+			"	)",
+			"}"
+		]
+	},
+
+	"Create react file component with Props": {
+		"prefix": "crfcp",
+		"body": [
+			"interface ${TM_FILENAME_BASE/^.+\\\\(.*)$/$1/}Props {"
+			"  "
+			"}"
+			""
+			"export const ${TM_FILENAME_BASE/^.+\\\\(.*)$/$1/} = ({  }: ${TM_FILENAME_BASE/^.+\\\\(.*)$/$1/}Props) => {",
+			"	return (",
+			"		<div>${TM_FILENAME_BASE/^.+\\\\(.*)$/$1/}</div>",
+			"	)",
+			"}"
+		]
+	},
+
+	"Create react folder component": {
+		"prefix": "crfdc",
+		"body": [
+			"export const ${TM_DIRECTORY/^.+\\\\(.*)$/$1/} = () => {",
+			"	return (",
+			"		<div>${TM_DIRECTORY/^.+\\\\(.*)$/$1/}</div>",
+			"	)",
+			"}"
+		]
+	},
+
+	"Create react folder component with Props": {
+		"prefix": "crfdcp",
+		"body": [
+			"interface ${TM_DIRECTORY/^.+\\\\(.*)$/$1/}Props {"
+			"  "
+			"}"
+			""
+			"export const ${TM_DIRECTORY/^.+\\\\(.*)$/$1/} = ({  }: ${TM_DIRECTORY/^.+\\\\(.*)$/$1/}Props) => {",
+			"	return (",
+			"		<div>${TM_DIRECTORY/^.+\\\\(.*)$/$1/}</div>",
+			"	)",
+			"}"
+		]
+	},
+
+	"Import scss module": {
+		"prefix": "iscssm",
+		"body": [
+			"import styles from \"./styles.module.scss\";"
+		]
+	}
+}
