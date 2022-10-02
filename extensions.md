@@ -1,1 +1,26 @@
+## 🧩 Extensões
 
+- [ ] CSS Modules
+- [ ] Docker
+- [ ] Elm Emmet
+- [ ] ENV
+- [ ] Eslint
+- [ ] Fluent Icons
+- [ ] Git Lens
+- [ ] GraphQL: Language Feature Support
+- [ ] GraphQL Syntax Highlighting
+- [ ] Import Cost
+- [ ] IntelliCode
+- [ ] Live Server
+- [ ] Material Icon Theme
+- [ ] Omni Theme
+- [ ] PostCSS Language Support
+- [ ] Prettier - Code formatter
+- [ ] Prisma
+- [ ] Prisma - Insider
+- [ ] SASS
+- [ ] SQLite Viewer
+- [ ] Prisma
+- [ ] Tabnine
+- [ ] Tailwind CSS InteliliSense
+- [ ] VSCode Styled Components
